@@ -1,0 +1,62 @@
+.shared-table-panel { margin: 0 0 30px; padding: 26px; border: 1px solid #e5d7bd; border-radius: 22px; background: #fffdf7; }
+.shared-lifecycle { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; margin: 18px 0; padding: 20px; border: 1px solid #e5d7bd; border-radius: 14px; background: #fff; }
+.shared-lifecycle > div { flex: 1 1 280px; }
+.shared-lifecycle strong { font-size: 16px; }
+.shared-lifecycle p { margin-top: 8px; color: #897d67; font-size: 13px; line-height: 1.8; }
+.shared-lifecycle .shared-small { margin-bottom: 0; font-size: 12px; }
+.shared-lifecycle.is-inactive { background: #fbf2df; border-color: #ddc393; }
+.shared-sync-badge.is-inactive { background: #f2e7d4; color: #8a6534; }
+.shared-cancel-button { color: #b5422f; border-color: #d6a69a; }
+.shared-remove { margin-top: 12px; color: #ad4b37; min-height: 40px; }
+.shared-batch-checkout { margin: 22px 0; padding: 22px; border: 1px solid #ddc393; border-radius: 16px; background: #fff5e3; }
+.shared-batch-checkout h3 { font-size: 19px; }
+.shared-checkout-members { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+.shared-checkout-members label { display: flex; gap: 12px; align-items: center; border: 1px solid #ddd0b8; padding: 12px 16px; border-radius: 10px; background: #fffdf8; cursor: pointer; }
+.shared-checkout-members input { width: 20px; height: 20px; accent-color: #c64b35; flex-shrink: 0; }
+.shared-checkout-members small { display: block; margin-top: 5px; color: #897d67; font-size: 12px; }
+.checkout-members { padding: 12px; background: #fff1d8; border-radius: 10px; line-height: 1.8; }
+.shared-lifecycle > button { flex-shrink: 0; min-height: 44px; }
+@media(max-width:650px) { .shared-lifecycle { padding: 16px; }.shared-lifecycle > button { width: 100%; justify-content: center; } }
+.shared-price-note { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; margin: 12px 0; }
+.shared-price-note p { flex: 1 1 270px; font-size: 12px; line-height: 1.8; color: #897d67; }
+.shared-price-note button { flex-shrink: 0; font-size: 12px; }
+.shared-product-price { display: grid; gap: 4px; }
+.shared-product-price strong { color: #c64b35; font-size: 22px; font-weight: 700; white-space: nowrap; }
+.shared-product-price small { color: #897d67; font-size: 12px; }
+.shared-price-pending { color: #897d67; font-size: 16px; }
+.shared-invitation-card { margin: 22px 0; padding: 22px; border: 1px solid #dac8a2; border-radius: 16px; background: #fbf5e8; }
+.shared-invitation-heading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
+.shared-invitation-heading h3 { display: flex; align-items: center; gap: 8px; font-size: 18px; }
+.shared-invitation-heading > span { font-size: 12px; margin: 0; }
+.shared-invitation-body { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-top: 16px; }
+.shared-invitation-details { flex: 1 1 300px; min-width: 0; }
+.shared-invitation-details > p { font-size: 13px; line-height: 1.85; color: #77664e; }
+.shared-qr-panel { flex: 0 0 248px; max-width: 100%; margin: 0 auto; text-align: center; padding: 12px; border-radius: 14px; border: 1px solid #e4d9c5; background: #fffdf8; box-sizing: border-box; }
+.shared-qr-panel strong { display: flex; align-items: center; justify-content: center; gap: 7px; font-size: 14px; }
+.shared-qr-image { margin: 12px auto 8px; background: #fff; }
+.shared-qr-image canvas { display: block; max-width: 100%; height: auto !important; margin: 0 auto; }
+.shared-qr-panel p { font-size: 12px; line-height: 1.7; color: #897d67; margin: 8px 0 12px; }
+.shared-qr-panel .outline-button { justify-content: center; width: 100%; font-size: 12px; }
+.shared-invitation-card > p,.shared-invitation-offline p { font-size: 13px; line-height: 1.85; color: #77664e; }
+.shared-invitation-card .shared-invite { margin: 16px 0 10px; background: transparent; padding: 0; }
+.shared-invitation-card .shared-invite input { background: #fffdf8; font-size: 13px; }
+.shared-invitation-offline .outline-button { margin-top: 12px; }
+@media(max-width:650px) { .shared-invitation-card { padding: 16px; }.shared-invitation-card .primary-button { justify-content: center; } }
+.shared-table-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 15px; }.shared-table-heading h2 { display: flex; align-items: center; gap: 10px; font-size: 22px; margin-top: 8px; }.shared-sync-badge { background: #edf1df; color: #5d713a; font-size: 12px; padding: 8px 12px; border-radius: 20px; }.shared-small { font-size: 12px; line-height: 1.8; color: #897d67; margin: 12px 0; }
+.shared-setup { display: flex; flex-wrap: wrap; gap: 15px; margin: 18px 0; }.shared-setup label,.shared-invite label { display: grid; gap: 8px; font-size: 13px; color: #675c49; flex: 1; min-width: 140px; }.shared-setup input,.shared-setup select,.shared-invite input { width: 100%; min-width: 0; border: 1px solid #ddd1bf; border-radius: 8px; background: #fff; padding: 11px; font: inherit; color: #443e32; }.shared-invite { background: #f7f1e4; border-radius: 13px; padding: 16px; display: flex; gap: 12px; align-items: flex-end; margin: 20px 0; }.shared-invite input { font-size: 12px; }.shared-invite button { flex-shrink: 0; }
+.shared-members { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 12px; margin: 22px 0; }.shared-members article { border: 1px solid #e9e1d2; border-radius: 13px; padding: 17px; background: #fff; }.shared-members article.is-me { border-color: #d09b73; background: #fff7ec; }.shared-members strong { display: flex; align-items: center; justify-content: space-between; gap: 8px; }.shared-members small { font-size: 10px; font-weight: 400; color: #978774; }.shared-members article > span { font-size: 12px; display: block; margin-top: 10px; color: #87745a; }.shared-members ul { list-style: none; padding: 0; margin: 14px 0; font-size: 13px; line-height: 1.8; }.shared-members .shared-ready { color: #577033; }
+.shared-editor { border-top: 1px solid #e8dfce; padding-top: 18px; }.shared-editor-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }.shared-editor-head h3 { font-size: 16px; }.shared-search { display: flex; align-items: center; gap: 9px; border: 1px solid #ded5c6; border-radius: 9px; padding: 10px 13px; background: #fff; }.shared-search input { border: 0; outline: 0; background: transparent; font: inherit; width: 100%; min-width: 0; font-size: 13px; }.shared-categories { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0; }.shared-categories button { border: 1px solid #e1d7c5; border-radius: 20px; padding: 7px 15px; background: transparent; cursor: pointer; font-size: 12px; }.shared-categories button[aria-pressed=true] { background: #bd4b35; color: white; border-color: #bd4b35; }
+/* Match the full-size personal menu cards while keeping quantity controls in reach. */
+.shared-products { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; max-height: min(72vh, 800px); overflow-y: auto; padding: 3px; scrollbar-gutter: stable; }
+.shared-product-card { display: flex; flex-direction: column; min-width: 0; border: 1px solid #e9e1d2; border-radius: 14px; padding: 20px; background: #fff; }
+.shared-product-card .product-image-card { height: clamp(160px, 18vw, 210px); }
+.shared-product-card h4 { flex: 1; font-size: 17px; font-weight: 500; line-height: 1.6; margin: 16px 0 20px; overflow-wrap: anywhere; }
+.shared-product-bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
+.shared-product-quantity { display: flex; align-items: center; gap: 12px; margin-left: auto; flex-shrink: 0; }
+.shared-product-quantity button { border: 1px solid #ded3c0; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 9px; background: #fffdf7; cursor: pointer; }
+.shared-product-quantity button:focus-visible { outline: 2px solid #bd4b35; outline-offset: 3px; }
+.shared-product-quantity button:disabled { opacity: .3; cursor: default; }
+.shared-product-quantity b { font-size: 16px; min-width: 18px; text-align: center; }
+.shared-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 18px 0 8px; }.shared-host-actions { display: flex; flex-wrap: wrap; gap: 15px; align-items: center; padding-top: 20px; border-top: 1px solid #e8dfce; margin-top: 22px; }.shared-host-actions > div { flex: 1; min-width: 220px; }.shared-host-actions p { font-size: 12px; color: #887c66; line-height: 1.8; margin-top: 7px; }.shared-table-panel button:disabled { opacity: .5; cursor: default; }
+@media(max-width:650px) { .shared-table-panel { padding: 18px; }.shared-table-heading h2 { font-size: 19px; }.shared-invite { flex-direction: column; align-items: stretch; }.shared-products { grid-template-columns: 1fr; }.shared-members { grid-template-columns: 1fr; }.shared-setup label { min-width: 120px; }.shared-actions > button { width: 100%; justify-content: center; } }
+.checkout-panel{margin-top:24px;padding-top:22px;border-top:1px solid #e6ddce}.checkout-panel>.primary-button{width:100%}.checkout-overlay{position:fixed;inset:0;background:#241b1475;z-index:100}.checkout-dialog{position:fixed;z-index:101;top:50%;left:50%;transform:translate(-50%,-50%);width:min(92vw,580px);max-height:88vh;overflow:auto;background:#fffcf5;border:1px solid #e6ddce;border-radius:22px;padding:32px;box-shadow:0 18px 70px #281b1333}.checkout-dialog h2{font-size:25px;margin-bottom:12px}.checkout-dialog p{margin:14px 0}.checkout-dialog li{margin:9px 0}.checkout-dialog .outline-button,.checkout-dialog .text-button{margin-top:12px}.checkout-label{display:grid;gap:8px;margin:15px 0}.checkout-label select{padding:10px;border:1px solid #d8cbb8;border-radius:8px;background:white}.checkout-consent{display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.65;margin:20px 0}.checkout-consent input{margin-top:5px;flex-shrink:0}.checkout-total{display:flex;justify-content:space-between}.checkout-total strong{font-size:26px;color:#c64b35}.third-party-coupons{border:1px solid #e5dac6;border-radius:12px;padding:16px;font-size:14px;line-height:1.7;margin-top:18px}.third-party-coupons summary{cursor:pointer;font-weight:600}.third-party-coupons p{margin:10px 0 0}
